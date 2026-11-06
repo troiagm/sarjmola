@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Şarj&amp;Mola — Gizlilik Politikası</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1f2937; --muted:#6b7280; --accent:#16a34a; --line:#e5e7eb; --card:#f9fafb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f172a; --fg:#e5e7eb; --muted:#9ca3af; --accent:#34d399; --line:#1f2937; --card:#111827; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; color: var(--accent); }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 20px; }
+  .lang { display:flex; gap:12px; font-size:14px; margin: 8px 0 24px; }
+  .box { background: var(--card); border:1px solid var(--line); border-radius:10px; padding: 12px 16px; }
+  hr { border:0; border-top:1px solid var(--line); margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Şarj&amp;Mola — Gizlilik Politikası</h1>
+<div class="meta">Yürürlük tarihi: 6 Kasım 2026</div>
+<div class="lang"><a href="#tr">Türkçe</a> · <a href="#en">English</a></div>
+
+<section id="tr">
+<p>Bu politika, <strong>Şarj&amp;Mola</strong> Android uygulamasının (“Uygulama”) hangi bilgileri nasıl kullandığını açıklar. Uygulama <strong>troigm</strong> tarafından geliştirilmiştir.</p>
+
+<div class="box">
+<strong>Kısaca:</strong> Uygulamada hesap yoktur; adınızı, e-postanızı veya rehberinizi istemeyiz. Konumunuz yalnızca yakındaki şarj istasyonlarını ve mekanları bulmak için kullanılır. Kendimize ait bir sunucumuz yoktur ve konum geçmişinizi saklamayız. Uygulama ücretsizdir ve Google AdMob reklamları gösterir.
+</div>
+
+<h2>1. Konum bilgisi</h2>
+<ul>
+  <li>Uygulama, izin vermeniz halinde cihazınızın konumunu (yaklaşık veya kesin) <strong>yalnızca uygulama açıkken</strong> alır. Arka planda konum takibi yapılmaz.</li>
+  <li>Konumunuz şu amaçlarla, arama yapmak üzere aşağıdaki hizmetlere koordinat olarak gönderilir:
+    <ul>
+      <li><a href="https://openchargemap.org" rel="noopener">Open Charge Map</a> — yakındaki şarj istasyonlarını bulmak için,</li>
+      <li><a href="https://www.geoapify.com" rel="noopener">Geoapify</a> — istasyonların yakınındaki kafe ve restoranları bulmak için.</li>
+    </ul>
+  </li>
+  <li>Arama sonuçları, tekrar aynı bölgeyi aradığınızda hızlı göstermek için en fazla 30 dakika boyunca yalnızca cihazınızın belleğinde tutulur; uygulama kapanınca silinir.</li>
+  <li>Konum iznini vermezseniz uygulama varsayılan bir şehir merkezini gösterir. İzni dilediğiniz zaman Android ayarlarından geri alabilirsiniz.</li>
+</ul>
+
+<h2>2. Harita</h2>
+<p>Harita görüntüleri <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> sunucularından yüklenir. Bu sırada IP adresiniz ve görüntülediğiniz harita bölgesi OpenStreetMap Vakfı’na iletilir (<a href="https://osmfoundation.org/wiki/Privacy_Policy" rel="noopener">OSMF Gizlilik Politikası</a>).</p>
+<p>“Yol tarifi” düğmesine dokunduğunuzda seçtiğiniz yerin koordinatları cihazınızdaki harita uygulamasına (ör. Google Haritalar) aktarılır; bundan sonrası o uygulamanın gizlilik politikasına tabidir.</p>
+
+<h2>3. Reklamlar (Google AdMob)</h2>
+<p>Uygulama, Google AdMob aracılığıyla reklam gösterir. AdMob SDK’sı reklam sunmak, ölçüm/analiz yapmak ve dolandırıcılığı önlemek amacıyla şu bilgileri toplayabilir ve Google ile paylaşır:</p>
+<ul>
+  <li>IP adresi (genel konumun tahmini için kullanılabilir),</li>
+  <li>Uygulama içi etkileşimler (ör. uygulamanın açılması, reklama dokunma),</li>
+  <li>Uygulama ve SDK performansına ilişkin tanılama bilgileri,</li>
+  <li>Cihaz tanımlayıcıları (Android reklam kimliği, uygulama grubu kimliği).</li>
+</ul>
+<p>Bu bilgiler aktarım sırasında şifrelenir (TLS). Ayrıntılar: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google, iş ortaklarının uygulamalarındaki verileri nasıl kullanır</a> ve <a href="https://policies.google.com/privacy" rel="noopener">Google Gizlilik Politikası</a>. Kişiselleştirilmiş reklamları Android cihazınızda <em>Ayarlar › Google › Reklamlar</em> bölümünden reklam kimliğinizi silerek veya sıfırlayarak sınırlayabilirsiniz.</p>
+
+<h2>4. Toplamadığımız bilgiler</h2>
+<p>Uygulama; ad, e-posta, telefon numarası, rehber, fotoğraf, dosya, mesaj veya ödeme bilgisi toplamaz. Kullanıcı hesabı oluşturulmaz.</p>
+
+<h2>5. Veri güvenliği ve saklama</h2>
+<p>Uygulamanın tüm ağ bağlantıları HTTPS (TLS) ile şifrelenir. Geliştirici olarak sizinle ilgili kişisel veri saklamadığımız için, bizim tarafımızda silinecek bir kaydınız bulunmaz. Üçüncü taraf hizmetlerin tuttuğu veriler için yukarıda bağlantısı verilen politikalar geçerlidir.</p>
+
+<h2>6. Çocuklar</h2>
+<p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve bilerek çocuklardan kişisel veri toplamaz.</p>
+
+<h2>7. Haklarınız</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu ve ilgili mevzuat kapsamındaki talepleriniz ile her türlü sorunuz için bize aşağıdaki adresten ulaşabilirsiniz.</p>
+
+<h2>8. Değişiklikler</h2>
+<p>Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm her zaman bu sayfada, yürürlük tarihiyle birlikte yayınlanır.</p>
+
+<h2>9. İletişim</h2>
+<p>E-posta: <a href="mailto:contact@troiagm.com">contact@troiagm.com</a></p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>Şarj&amp;Mola — Privacy Policy</h1>
+<div class="meta">Effective date: November 6, 2026</div>
+
+<p>This policy explains what information the <strong>Şarj&amp;Mola</strong> Android app (“App”), developed by <strong>troigm</strong>, uses and how.</p>
+
+<div class="box">
+<strong>In short:</strong> The App has no user accounts and does not ask for your name, email or contacts. Your location is used only to find nearby charging stations and places. We run no servers of our own and do not store your location history. The App is free and shows Google AdMob ads.
+</div>
+
+<h2>1. Location</h2>
+<ul>
+  <li>With your permission, the App reads your device location (approximate or precise) <strong>only while the App is open</strong>. There is no background location tracking.</li>
+  <li>Your coordinates are sent to the following services solely to perform searches:
+    <ul>
+      <li><a href="https://openchargemap.org" rel="noopener">Open Charge Map</a> — to find nearby charging stations,</li>
+      <li><a href="https://www.geoapify.com" rel="noopener">Geoapify</a> — to find cafés and restaurants near those stations.</li>
+    </ul>
+  </li>
+  <li>Search results are kept only in your device’s memory for up to 30 minutes to speed up repeat searches, and are cleared when the App closes.</li>
+  <li>If you deny location permission, the App shows a default city centre. You can revoke the permission at any time in Android settings.</li>
+</ul>
+
+<h2>2. Map</h2>
+<p>Map images are loaded from <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> servers, which receive your IP address and the map area you view (<a href="https://osmfoundation.org/wiki/Privacy_Policy" rel="noopener">OSMF Privacy Policy</a>). When you tap “Directions”, the destination coordinates are handed to the map app on your device (e.g. Google Maps), whose own privacy policy then applies.</p>
+
+<h2>3. Advertising (Google AdMob)</h2>
+<p>The App shows ads via Google AdMob. For advertising, analytics and fraud prevention, the AdMob SDK may collect and share with Google: your IP address (which may be used to estimate general location), in-app interactions (e.g. app launches, ad taps), diagnostic information about app and SDK performance, and device identifiers (Android advertising ID, app set ID). This data is encrypted in transit (TLS). See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. You can limit personalised ads by deleting or resetting your advertising ID under <em>Settings › Google › Ads</em> on your Android device.</p>
+
+<h2>4. Information we do not collect</h2>
+<p>The App does not collect names, email addresses, phone numbers, contacts, photos, files, messages or payment information, and no user account is created.</p>
+
+<h2>5. Security and retention</h2>
+<p>All network connections use HTTPS (TLS). Because we do not store personal data about you, there is no record on our side to delete. Data held by third-party services is governed by the policies linked above.</p>
+
+<h2>6. Children</h2>
+<p>The App is not directed at children under 13 and does not knowingly collect personal data from children.</p>
+
+<h2>7. Changes</h2>
+<p>We may update this policy from time to time. The current version is always published on this page with its effective date.</p>
+
+<h2>8. Contact</h2>
+<p>Email: <a href="mailto:contact@troiagm.com">contact@troiagm.com</a></p>
+</section>
+
+</main>
+</body>
+</html>
